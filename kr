@@ -1,27 +1,66 @@
 <head>
   <style>
+    div{
+      border-radius: 10px;
+    }
     .s{
       width 1440px;
     }
+
 .header{
   height: 100px;
+  width: 1000px;
   Width 0 ;
   border: 1px solid black;
   background: silver;
 }
     .nav{
   height: 100px;
+  Width: 1000px ;
+  border: 1px solid black;
+  background: blue;
+      margin-top: 5px;
+    }
+    .section{
+  height: 500px;
+  Width: 600px ;
+  border: 1px solid black;
+  background: silver;
+  margin-top: 5px;
+    }
+    .aside{
+height: 500px;
+  Width: 390px ;
+  border: 1px solid black;
+  background: green;
+  margin-top: 5px;
+      margin-left: 610px;
+      margin-top: -503px;
+      aligin-items: center;
+      position: fixed;
+    }
+    .footer{
+height: 100px;
+  width: 1000px;
   Width 0 ;
   border: 1px solid black;
   background: blue;
-      margin-top: 10px;
-    }
-    .section{
-  height: 100px;
-  Width 2px ;
+  margin-top: 5px;    }
+    .article{
+   height: 80px;
+  Width: 300px ;
   border: 1px solid black;
-  background: silver;
-      margin-top: 10px;
+  background: blue;
+      margin-top: 30px;
+      margin-left:145px;
+    }
+    .text{
+      margin-left:10px;
+      font-size: 10px;
+    }
+    img{
+      height: 80px;
+      float: left;
     }
 </style>
   <head>
@@ -31,6 +70,26 @@
 </div>
  <div class="nav">
    </div>
-  <div class="section"></div>
+  <div class="section">
+    <p>Новости</p>
+    <div class="article">
+      <img src="https://img2.fonwall.ru/o/su/autumn-bokeh-drops-glass.jpeg"><p class="text">Середина весны 20.01.2013
+      Какая температура нас ожидает?</p>
+    </div>
+     <div class="article">
+       <img src="https://img2.fonwall.ru/o/pc/dodge-challenger-cars-eafc.jpeg"><p class="text">New car 13.03.2008
+       Выход нового маслкара Dodge</p>
+    </div>
+     <div class="article">
+       <img src="https://avatars.mds.yandex.net/get-pdb/69339/f072780f-302b-4746-9c8a-ab2d3d3142e9/s1200?webp=false"><p class="text">Nissan 350z 17.02.2019
+       Снят с производства</p>
+    </div>
+     <div class="article">
+       <img src="https://avatars.mds.yandex.net/get-pdb/1209255/7a16c5ed-9df5-4edf-9f23-3cc49a3fbec9/s1200"><p class="text">Tesla 25.09.2018
+       Выход в продажу новенького электромобиля</p>
+    </div>
+  </div>
+  <div class="aside"></div>
+  <div class="footer"></div>
  </div>
- </body> 
+</body> 
