@@ -1,0 +1,36 @@
+<head>
+  <style>
+    .s{
+      width 1440px;
+    }
+.header{
+  height: 100px;
+  Width 0 ;
+  border: 1px solid black;
+  background: silver;
+}
+    .nav{
+  height: 100px;
+  Width 0 ;
+  border: 1px solid black;
+  background: blue;
+      margin-top: 10px;
+    }
+    .section{
+  height: 100px;
+  Width 2px ;
+  border: 1px solid black;
+  background: silver;
+      margin-top: 10px;
+    }
+</style>
+  <head>
+<body>
+<div class="s">
+  <div class="header">
+</div>
+ <div class="nav">
+   </div>
+  <div class="section"></div>
+ </div>
+ </body> 
