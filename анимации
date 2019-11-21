@@ -1,0 +1,135 @@
+<div class="static"><div class="test">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test2">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test3">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test4">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test5">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test6">skew(20deg, 30deg)</div></div>
+
+.static{
+  display: inline-block; 
+  margin: 10px; 
+  background: gray;}
+div{
+  width:180px; 
+  height: 100px; 
+  line-height: 100px; 
+  text-aligin: center; 
+  transition: 0.2s;
+}
+.test2, .test4, .test6 {background: orange;}
+.test, .test3, .test5 {background:plum;}
+.test:hover{transform:skew(20deg,30deg);}
+.test2:hover{transform:skew(-20deg,-30deg);}
+.test3:hover{transform:skew(20deg);}
+.test4:hover{transform:skew(-20deg);}
+.test5:hover{transform:skew(70deg,0deg);}
+.test6:hover{transform:skew(0deg,40deg);}
+
+<div class="static"><div class="test">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test2">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test3">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test4">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test5">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test6">skew(20deg, 30deg)</div></div>
+
+.static{
+  display: inline-block; 
+  margin: 10px; 
+  background: gray;}
+div{
+  width:180px; 
+  height: 100px; 
+  line-height: 100px; 
+  text-aligin: center; 
+  transition: 0.2s;
+}
+.test2, .test4, .test6 {background: orange;}
+.test, .test3, .test5 {background:plum;}
+.test:hover{transform:rotate(45deg);}
+.test2:hover{transform:rotate(-45deg);}
+.test3:hover{transform:skew(20deg);}
+.test4:hover{transform:skew(-20deg);}
+.test5:hover{transform:skew(70deg,0deg);}
+.test6:hover{transform:skew(0deg,40deg);}
+
+<div class="static"><div class="test">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test2">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test3">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test4">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test5">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test6">skew(20deg, 30deg)</div></div>
+
+.static{
+  display: inline-block; 
+  margin: 10px; 
+  background: gray;}
+div{
+  width:180px; 
+  height: 100px; 
+  line-height: 100px; 
+  text-aligin: center; 
+  transition: 0.2s;
+}
+.test2, .test4, .test6 {background: orange;}
+.test, .test3, .test5 {background:plum;}
+.test:hover{transform:rotateX(60deg);}
+.test2:hover{transform:rotateX(-160deg);}
+.test3:hover{transform:rotateY(20deg);}
+.test4:hover{transform:rotateY(60deg);}
+.test5:hover{transform:rotateZ(20deg);}
+.test6:hover{transform:rotateZ(145deg);}
+
+<div class="static"><div class="test">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test2">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test3">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test4">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test5">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test6">skew(20deg, 30deg)</div></div>
+
+.static{
+  display: inline-block; 
+  margin: 10px; 
+  background: gray;}
+div{
+  width:180px; 
+  height: 100px; 
+  line-height: 100px; 
+  text-aligin: center; 
+  transition: 0.2s;
+}
+.test2, .test4, .test6 {background: orange;}
+.test, .test3, .test5 {background:plum;}
+.test:hover{transform:scale(0.5);}
+.test2:hover{transform:scale(0.5, 0.8);}
+.test3:hover{transform:scale(0.5, 1);}
+.test4:hover{transform:scale(-0.5, -1);}
+.test5:hover{transform:scale(2, 2);}
+.test6:hover{transform:scale(0, 0.5);}
+
+<div class="static"><div class="test">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test2">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test3">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test4">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test5">skew(20deg, 30deg)</div></div>
+<div class="static"><div class="test6">skew(20deg, 30deg)</div></div>
+
+
+.static{
+  display: inline-block; 
+  margin: 10px; 
+  background: gray;}
+div{
+  width:180px; 
+  height: 100px; 
+  line-height: 100px; 
+  text-aligin: center; 
+  transition: 0.2s;
+}
+.test2, .test4, .test6 {background: orange;}
+.test, .test3, .test5 {background:plum;}
+.test:hover{transform:scale(0.5);}
+.test2:hover{transform:scale(0.5, 0.8);}
+.test3:hover{transform:scale(0.5, 1);}
+.test4:hover{transform:scale(-0.5, -1);}
+.test5:hover{transform:perspective(500px) scaleZ(-2) rotateX(45deg);}
+.test6:hover{transform:perspective(500px)scaleZ(6)rotateX(45deg);}
