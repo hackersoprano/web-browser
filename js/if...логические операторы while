@@ -1,0 +1,36 @@
+let a = prompt("сколько тебе лет");
+if (a==18){
+alert('ого какой большой');
+alert('кхх');
+}
+
+let a = prompt("сколько тебе лет");
+if (a==18){
+alert('ого какой большой');
+}
+else{
+alert('кхх');
+}
+
+let year = prompt('В каком году появилась спецификация ECMAScript-2015?', '');
+
+let a = prompt("сколько тебе лет");
+if (a==18){
+alert('ого какой большой');
+}
+else if(a==17){
+alert('чуть чуть осталось до 18');
+}
+else{
+alert('кхх');
+}
+
+let sum = 0
+while (true){
+let value = +prompt('число', '');
+if (!value)break;
+sum+=value;
+}
+alert('сумма' + sum)
+
+
